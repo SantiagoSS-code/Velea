@@ -1281,17 +1281,17 @@ footer {
   }
   .formula-video {
     width: 100%;
-    height: 220px;
+    height: 260px;
     border-radius: 0;
     filter: none;
     cursor: default;
   }
   .formula-anim-wrap:hover { box-shadow: none; }
-  .formula-anim-wrap:hover .formula-video { height: 220px; border-radius: 0; }
+  .formula-anim-wrap:hover .formula-video { height: 260px; border-radius: 0; }
 
   /* Scroll-activated video on mobile */
-  .phil-row--active .formula-video           { height: 360px; }
-  .phil-row--active .formula-anim-wrap:hover .formula-video { height: 360px; }
+  .phil-row--active .formula-video           { height: 460px; }
+  .phil-row--active .formula-anim-wrap:hover .formula-video { height: 460px; }
   .phil-row--active .formula-anim-wrap::before { height: 72px; }
 
   /* Proof */
@@ -1349,6 +1349,6 @@ footer {
   .sticky-btn         { padding: 8px 12px; font-size: 12px; }
   .proof-headline     { font-size: clamp(36px, 10vw, 56px); }
   .mobile-nav a       { font-size: 28px; gap: 28px; }
-  .formula-video      { height: 200px; }
-  .formula-anim-wrap:hover .formula-video { height: 200px; }
+  .formula-video      { height: 240px; }
+  .formula-anim-wrap:hover .formula-video { height: 240px; }
 }
